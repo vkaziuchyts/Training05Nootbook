@@ -16,9 +16,9 @@ public void print(String title, List<Note> notes) {
 		}
 		
 		for(Note n : notes) {
-			System.out.println(n.getId() + " - " + n.getTitle() + " - " + n.getContent());
+			System.out.println(n.getId() + " - " + n.getTitle() + " - " + n.getContent() + " - " + n.getD());
 		}
-		
+		System.out.println();
 	}
 
 }

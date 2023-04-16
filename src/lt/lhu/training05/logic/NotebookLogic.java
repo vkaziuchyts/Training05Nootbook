@@ -16,9 +16,9 @@ public class NotebookLogic {
 		dao.save(n);
 	}
 
-	public void add(String title, String content) {
+	public void add(String title, String content, Date date) {
 		// NoteBookDao dao = new NoteBookDao();
-		Note n = new Note(title, content);
+		Note n = new Note(title, content, date);
 
 		dao.save(n);
 	}
